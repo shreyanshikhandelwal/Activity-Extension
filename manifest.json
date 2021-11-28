@@ -1,0 +1,14 @@
+{
+    "name": "Activity Extension",
+    "description": "Your task for today is",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "sized.png"
+    },
+    "icons":{
+        "128": "sized.png"
+    },
+    "permissions": ["activeTab"]
+}
